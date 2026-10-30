@@ -1,8 +1,8 @@
 package estruturasequencial.parte1;
+
 // Enunciado problema Soma
 
 /* Problema "soma"
-
 Fazer um programa para ler dois valores inteiros X e Y, e depois mostrar na tela o valor da soma destes
 números.
 
@@ -16,7 +16,8 @@ Digite o valor de X: 12
 Digite o valor de Y: 31
 SOMA = 43 */
 
-//fim do enunciado
+//fim do enunciado soma
+
 import java.util.Scanner;
 
 public class Soma {

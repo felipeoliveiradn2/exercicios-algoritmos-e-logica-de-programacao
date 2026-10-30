@@ -1,10 +1,9 @@
 package estruturasequencial.parte1;
 
-import java.util.Scanner;
-
 // Enunciado do Problema Terreno
 
-/* Problema "terreno" Fazer um programa para ler as medidas da largura e comprimento de um terreno retangular com uma
+/* Problema "terreno"
+Fazer um programa para ler as medidas da largura e comprimento de um terreno retangular com uma
 casa decimal, bem como o valor do metro quadrado do terreno com duas casas decimais. Em seguida,
 o programa deve mostrar o valor da área do terreno, bem como o valor do preço do terreno, ambos com
 duas casas decimais, conforme exemplo.
@@ -23,7 +22,9 @@ Digite o valor do metro quadrado: 150.00
 Area do terreno = 240.00
 Preco do terreno = 36000.00 */
 
-//fim do enunciado
+//fim do enunciado terreno
+
+import java.util.Scanner;
 
 public class Terreno {
 

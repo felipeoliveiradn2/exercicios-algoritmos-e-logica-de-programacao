@@ -3,7 +3,6 @@ package estruturasequencial.parte1;
 // Enunciado problema Troco
 
 /* Problema "troco"
-
 Fazer um programa para calcular o troco no processo de pagamento de um produto de uma mercearia.
 O programa deve ler o preço unitário do produto, a quantidade de unidades compradas deste produto,
 e o valor em dinheiro dado pelo cliente (suponha que haja dinheiro suficiente). Seu programa deve
@@ -21,7 +20,8 @@ Quantidade comprada: 3
 Dinheiro recebido: 100.00
 TROCO = 10.00 */
 
-//fim do enunciado
+//fim do enunciado troco
+
 import java.util.Scanner;
 
 public class Troco {
@@ -38,14 +38,14 @@ public class Troco {
         System.out.print("Quantidade comprada: ");
         int quantidade = sc.nextInt();
 
-        // aqui informamos o dinheiro recebido do cliente
+        // informamos o dinheiro recebido do cliente
         System.out.print("Dinheiro recebido: ");
         double dinheiro = sc.nextDouble();
 
         // aqui calculamos o valor total da compra
         double total = preco * quantidade;
 
-        // aqui calculamos quanto deve ser devolvido ao cliente
+        // calculamos quanto deve ser devolvido ao cliente
         double troco = dinheiro - total;
 
         // essa parte mostra o troco com duas casas decimais

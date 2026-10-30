@@ -1,8 +1,8 @@
 package estruturasequencial.parte1;
+
 // Enunciado problema Retângulo
 
 /* Problema "retangulo"
-
 Fazer um programa para ler as medidas da base e altura de um retângulo. Em seguida, mostrar o valor
 da área, perímetro e diagonal deste retângulo, com quatro casas decimais, conforme exemplos.
 
@@ -20,7 +20,8 @@ AREA = 134.9300
 PERIMETRO = 46.8000
 DIAGONAL = 16.6643 */
 
-//fim do enunciado
+//fim do enunciado Retangulo
+
 import java.util.Scanner;
 
 public class Retangulo {
