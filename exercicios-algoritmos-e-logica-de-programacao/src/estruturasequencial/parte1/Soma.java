@@ -34,7 +34,7 @@ public class Soma {
         System.out.print("Digite o valor de Y: ");
         int y = sc.nextInt();
 
-        // aqui somamos os dois valores
+        // nesse somamos os dois valores
         int soma = x + y;
 
         // essa parte mostra o resultado da soma
